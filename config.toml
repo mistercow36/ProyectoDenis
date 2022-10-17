@@ -2,3 +2,24 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'DAW Denis'
 theme = ['hugo-theme-stack']
+
+defaultContentLanguage = "es"
+
+[Languages]
+    [Languages.es]
+        title = "Desarrollo de aplicaciones Web"
+        weight = 1
+        languageName = "Español"
+        contentDir = "content/es"
+        
+    [Languages.en]
+        title = "Web application Web"
+        weight = 2
+        languageName = "English"
+        contentDir = "content/en"
+
+   [Languages.fr]
+        title = "Développement d'applications Web"
+        weight = 3
+        languageName = "Français"
+        contentDir = "content/fr"
