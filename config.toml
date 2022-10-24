@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://mistercow36.github.io/ProyectoDenis/'
 languageCode = 'en-us'
 title = 'DAW Denis'
 theme = ['hugo-theme-stack']
