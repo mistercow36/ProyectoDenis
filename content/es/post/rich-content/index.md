@@ -1,19 +1,19 @@
 +++
-author = "Hugo Authors"
-title = "Rich Content"
+author = "Denis"
+title = "Shotcodes"
 date = "2019-03-10"
-description = "A brief description of Hugo Shortcodes"
+description = "Descripcion de los Shortcode"
 tags = [
     "shortcodes",
     "privacy",
 ]
 +++
 
-Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes) for rich content, along with a [Privacy Config](https://gohugo.io/about/hugo-and-gdpr/) and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-<!--more-->
+Hugo se envía con varios [códigos cortos integrados] (https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes) para contenido enriquecido, junto con una [Configuración de privacidad]( https://gohugo.io/about/hugo-and-gdpr/) y un conjunto de códigos abreviados simples que permiten versiones estáticas y sin JS de varias incrustaciones de redes sociales.
+<!--más-->
 ---
 
-## YouTube Privacy Enhanced Shortcode
+## Código abreviado mejorado de privacidad de YouTube
 
 {{< youtube ZJthWmvUzzc >}}
 
@@ -21,11 +21,11 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ---
 
-## Twitter Simple Shortcode
+## Código abreviado simple de Twitter
 
 {{< twitter_simple user="DesignReviewed" id="1085870671291310081" >}}
 
-<br>
+<br>    
 
 ---
 
@@ -47,7 +47,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## Quote Shortcode
 
-Stack adds a `quote` shortcode.  For example:
+Stack agrega un shortcode `quote`. Por ejemplo:
 
 {{< quote author="A famous person" source="The book they wrote" url="https://en.wikipedia.org/wiki/Book">}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

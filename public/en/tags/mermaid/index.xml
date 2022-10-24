@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Mermaid on Web application Web</title>
+        <link>http://example.org/en/tags/mermaid/</link>
+        <description>Recent content in Mermaid on Web application Web</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language><atom:link href="http://example.org/en/tags/mermaid/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mermaid</title>
+        <link>http://example.org/en/post/mermaid/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/en/post/mermaid/</guid>
+        <description>&lt;p&gt;Cuando nosotros queremos ver una página web, nosotros lo que hacemos es poner la dirección de esta en nuestro navegador, esperamos un par de segundos y esta como por arte de magia carga, pero… ¿Sabes realmente que es lo que hace de fondo el navegador?&lt;/p&gt;
+&lt;p&gt;Terminos a conocer
+Las IPs, las matriculas de internet
+Por si no lo sabías, los ordenadores internamente no funcionan con nombres de dominio (conocidos generalmente de forma incorrecta como URLs) sino que usan varios típos de identificadores, uno de ellos son las IPs.&lt;/p&gt;
+&lt;p&gt;Una IP se utiliza para conectar con un equipo en red, y de esta forma poder obtener recursos en el y/o enviarselos.&lt;/p&gt;
+&lt;p&gt;Las IPs en los sistemas domésticos las suele asignar el router, mediante un servidor interno conocido como DHCP.&lt;/p&gt;
+&lt;p&gt;Este lo que hace es cuando tu te conectas a la red, ya sea por wifi o por cable elige un numero dentro del rango que le tenemos asignado que no este usando ningun equipo más en la red. En un sistema casero suele ser una ip dentro del rango generalmente 192.168.1.[0-255]&lt;/p&gt;
+&lt;p&gt;El servidor DNS, el diccionario de las webs
+Como he explicado anteriormente intenet funciona por IPs, por lo tanto es necesario de alguna forma “convertir” una URL como google.es en una ip como 142.250.185.3&lt;/p&gt;
+&lt;p&gt;El proceso de carga
+PC CLIENTE introduce la URI del servidor que quiere visitar&lt;/p&gt;
+&lt;p&gt;PC CLIENTE manda solicitud al NAT del ROUTER CLIENTE&lt;/p&gt;
+&lt;p&gt;ROUTER CLIENTE hace NAT y realiza una solicitud al SERVIDOR DNS que esta configurado&lt;/p&gt;
+&lt;p&gt;SERVIDOR DNS busca en los registros y si no lo encuentra en sus registros, escala la solicitud a servidores DNS primarios hasta encontrarlo&lt;/p&gt;
+&lt;p&gt;El SERVIDOR DNS se encarga de devolver el registro al ROUTER CLIENTE (Este registro ha podido ser encontrado en el mismo servidor o puede ser el que le han devuelto los otros servidores DNS).&lt;/p&gt;
+&lt;p&gt;Se devuelve el registro al ROUTER CLIENTE.&lt;/p&gt;
+&lt;p&gt;El ROUTER CLIENTE realiza el NAT y se lo devuelve al PC CLIENTE.&lt;/p&gt;
+&lt;p&gt;El PC CLIENTE realiza la solicitud a la IP, que le ha devuelto el Servidor DNS, correspondiente al servidor del recurso solicitado.&lt;/p&gt;
+&lt;p&gt;Se vuelve a mandar la solicitud al ROUTER CLIENTE que vuelve a hacer NAT.&lt;/p&gt;
+&lt;p&gt;El ROUTER CLIENTE realiza la solicitud al SERVIDOR WEB.&lt;/p&gt;
+&lt;p&gt;El SERVIDOR atiende a la solicitud mediante el siguiente orden de prioridad:&lt;/p&gt;
+&lt;script async type=&#34;application/javascript&#34; src=&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;&gt;
+    var config = {
+      startOnLoad:true,
+      theme:&#39;dark&#39;,
+      align:&#39;left&#39;
+    };
+    mermaid.initialize(config);
+  &lt;/script&gt;
+  
+  &lt;div class=&#34;mermaid&#34;&gt;
+    
+graph LR;
+    A[Cliente] --&gt; B(Dominio)
+    B --&gt; C(Puerto)
+    C --&gt; D(Ruta)
+    D --&gt; E(Parametros)
+
+  &lt;/div&gt;
+&lt;p&gt;En caso de carga de pagina web por ejemplo al ver el protocolo http/https se mandará la petición al servicio apache2/nginx instalados en SERVIDOR, que son los que procesarán el resto de la petición.&lt;/p&gt;
+&lt;p&gt;El servidor devuelve el recurso solicitado al ROUTER CLIENTE&lt;/p&gt;
+&lt;p&gt;El ROUTER CLIENTE vuelve a realizar NAT&lt;/p&gt;
+&lt;p&gt;El ROUTER CLIENTE devuelve la petición al PC CLIENTE&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

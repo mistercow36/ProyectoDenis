@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Développement d&#39;applications Web</title>
+        <link>http://example.org/fr/page/</link>
+        <description>Recent content in Pages on Développement d&#39;applications Web</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 14 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/fr/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sobre mi</title>
+        <link>http://example.org/fr/page/sobre-mi/</link>
+        <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/fr/page/sobre-mi/</guid>
+        <description>&lt;p&gt;Hola, mi nombre es &lt;strong&gt;Denis Murcia Suarez&lt;/strong&gt; y actualmente estoy estudiando &lt;strong&gt;Desarrollo de Aplicaciones Web&lt;/strong&gt; en el centro &lt;strong&gt;C.P.I.F.P Los Enlaces&lt;/strong&gt;. Mis hobbies ademas de practicamente ser todo lo relacionado con la informatica, son los vieojuegos y la musica.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archivos</title>
+        <link>http://example.org/fr/page/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/fr/page/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Busqueda</title>
+        <link>http://example.org/fr/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/fr/page/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>http://example.org/fr/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/fr/page/links/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
