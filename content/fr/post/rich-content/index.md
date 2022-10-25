@@ -1,6 +1,6 @@
 +++
-author = "Hugo Authors"
-title = "Rich Content"
+author = "Denis"
+title = "Shotcodes"
 date = "2019-03-10"
 description = "Descripcion de los Shortcode"
 tags = [

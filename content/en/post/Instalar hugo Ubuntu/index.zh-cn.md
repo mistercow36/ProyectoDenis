@@ -1,45 +1,45 @@
 ---
-title: Instalacion de hugo en Ubuntu
-description: Instalacion de hugo para Ubuntu
+title: Installing hugo on Ubuntu
+description: Installation of hugo for Ubuntu
 date: 2022-10-17
 slug: Instalacion-hugo-ubuntu
 image: "helena-hertz-wWZzXlDpMog-unsplash.jpg"
 categories:
-    - Instalacion
+    - Installation
     - Hugo
     - Ubuntu
 ---
 
-## Como instalar hugo, textos de ejemplos/guia para mas tarde
+## How to install hugo
 
-**Instalar Snap**
+**Install Snap**
 
-Para instalar Hugo en Linux vamos a utilizar el gestor de paquetes Snap. Por ello lo primero que vamos a hacer es comprobar si tenemos este gestor instalado, para ello utilizaremos el siguiente comando:
+To install Hugo on Linux we are going to use the Snap package manager. For this reason, the first thing we are going to do is check if we have this manager installed, for this we will use the following command:
 
 >``
     snap version
 ``
 
-Si el resultado es parecido al siguiente significa que esta instalado
+If the result is similar to the following, it means that it is installed
 
-![Version de snap instalada](version.jpg)
+![Snap version installed](version.jpg)
 
 
-Si no aparece algo parecido, significa que no esta instalado, para hacerlo simplemente agrega en la consola de comandos lo siguiente
+If something similar does not appear, it means that it is not installed, to do so simply add the following in the command console
 
 >``
 apt-get install snapd -y
 ``
 
-Y volveriamos al paso anterior para comprobar si esta instalado
+And we would return to the previous step to check if it is installed
 
-## Instalar Hugo-Extended
+## Install Hugo-Extended
 
-Ahora usaremos el gestor **Snap** para instalar Hugo-Extended,para hacerlo hay que acceder a una consola de comandos en introducir lo siguiente:
+Now we will use the **Snap** manager to install Hugo-Extended, to do so you have to access a command console and enter the following:
 
 >``
-snap instal hugo --channel=extended
+snap install hugo --channel=extended
 ``
 
-![Logo de Ubunut](helena-hertz-wWZzXlDpMog-unsplash.jpg)
+![Logo Ubuntu](helena-hertz-wWZzXlDpMog-unsplash.jpg)
 

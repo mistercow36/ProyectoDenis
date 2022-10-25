@@ -1,7 +1,7 @@
 ---
-title: "Instalacion"
+title: "Installation"
 description: "Installations and preparations"
-slug: "Instalacion"
+slug: "Instalattion"
 image: "instalar.jpg"
 style:
     background: "#2a9d8f"

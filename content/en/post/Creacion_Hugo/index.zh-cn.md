@@ -1,49 +1,49 @@
 ---
-title: Creacion del sitio
-description: Creacion la web
+title: Site creation
+description: Web creation
 date: 2022-10-17
-slug: Creacion-sitio-web
+slug: Web-creation-site
 image: "hugo.jpg"
 categories:
   - Hugo
 ---
 
-## Creacion del sitio
+## Site creation
 
-**Comandos**
+**Comands**
 
-Primero crearemos la carpeta del sitio web y entraremos en ella usando los siguientes comandos
+We will first create the website folder and go into it using the following commands
 
-    hugo new site nombredelsitio
+    hugo new site sitename
 
-    cd nombredelsitio
+    cd sitename
 
-Una vez ejecutado estos comandos, nuestra pagina ya estara creada
+Once these commands are executed, our page will already be created
 
-**Instalar un tema**
+**Install a theme**
 
-Para poder instalar un tema lo primero que hay que hacer es posicionarse dentro de la carpeta nombredelsitio/themes mediante los comandos:
+In order to install a theme, the first thing to do is to position yourself inside the sitename/themes folder using the commands:
 
-    cd nombredelsitio/themes
+    cd sitename/themes
 
-Una vez dentro, habra que clonar el tema usando el comando git clone:
+Once inside, we will have to clone the theme using the git clone command:
 
     git clone https://github.com/McShelby/hugo-theme-relearn.git
 
-En este caso usare el tema Relearn ya que es el mas simple, pero se puede usar cualquier tema (algunos temas necesitan complementos)
+In this case I will use the Relearn theme as it is the simplest, but any theme can be used (some themes need plugins)
 
-Ahora hay que entrar dentro del tema y borrar .git para evitar cualquier problema
+Now you have to enter the theme and delete .git to avoid any problem
 
-    cd hugo-them-relearn
+    cd hugo-them-release
     rm -rf .git
 
-Ahora simplemente habra que ejecutar el servidor y comprobar si funciona (**Consejo**: Con Visual Studio Code u otro IDE es mejor abrir la carpeta de nuestra web, entrar dentro del tema y buscar la carpeta ExampleSite/content y copiar todo su contenido al primer content que hay arriba del todo):
+Now we just have to run the server and check if it works (**Tip**: With Visual Studio Code or another IDE it is better to open our website folder, go inside the theme and look for the ExampleSite/content folder and copy all its content to the first content at the top):
 
     hugo server
 
-Se coge el url que sale en el CMD y se accede atraves de un navegador
+The url that appears in the CMD is taken and accessed through a browser
 
-![Url del CMD](Url.jpg)
+![Url CMD](Url.jpg)
 
-![Logo de Hugo](hugo.jpg)
+![Logo Hugo](hugo.jpg)
 

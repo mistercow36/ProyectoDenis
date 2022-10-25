@@ -1,6 +1,6 @@
 +++
 author = "Hugo Authors"
-title = "Mermaid"
+title = "Mermaid y puzle"
 date = "2022-23-10"
 description = "Proceso de carga en un servidor "
 tags = [
@@ -62,3 +62,32 @@ El servidor devuelve el recurso solicitado al ROUTER CLIENTE
 El ROUTER CLIENTE vuelve a realizar NAT
 
 El ROUTER CLIENTE devuelve la petición al PC CLIENTE
+
+>Puzzle
+
+
+A continuación te nombro varias herramientas/tecnologías para el desarrollo web.
+Agrega un nuevo fichero md en tu sitio web explicándolo. Usa shortcode para darle un aspecto más visual
+
+```
+Babel WebPack Prototype Polyfill
+PHP Frameworks de php
+DJango  JSP  Css Bootstrap 
+Vue React Angular JavaScript TypeScript  JQuery
+Gatsby  Hugo  Jekyll  Pelican Scraping heroku 
+Vuespress 
+```
+
+* Se trata de que las agrupes y hagas un par de frases de qué es cada cosa.
+* Usa tus propias palabras y aporta la url de su página oficial
+* Aprovecha este ejercicio para ampliar tu volcabulario y conocimiento técnico
+
+| Lenguajes de programacion | Lenguajes de marcas | Frameworks          | Generador Sitios Estaticos | Bibliotecas |
+| ------------------------- | ------------------- | ------------------- | -------------------------- | ----------- |
+|PHP                        | CSS                 | Frameworks de php   | Hugo                       |Bootstrap    |
+|Javascript                 | HTML                | Angular             | Pelican                    |React        |
+|Typescript                 |                     | DJango              | Vuepress                   |JQuery       |
+|Java                       |                     | Vue                 | Jekyll                     |Webpack      |
+|                           |                     | Gatsby              |                            |             |
+|                           |                     | Heroku              |                            |             |
+|                           |                     | JSP                 |                            |             |

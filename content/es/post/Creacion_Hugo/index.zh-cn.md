@@ -43,7 +43,14 @@ Ahora simplemente habra que ejecutar el servidor y comprobar si funciona (**Cons
 
 Se coge el url que sale en el CMD y se accede atraves de un navegador
 
+
+
 ![Url del CMD](Url.jpg)
+
+**Idiomas**
+
+
+Para los idiomas me da un error de pagina encontrada que no se como solucionar.
 
 ![Logo de Hugo](hugo.jpg)
 

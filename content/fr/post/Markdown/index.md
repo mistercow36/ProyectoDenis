@@ -103,7 +103,8 @@ Las tablas no forman parte de la especificación principal de Markdown, pero Hug
     </body>
     </html>
 
-#### Code block with Hugo's internal highlight shortcode
+#### Bloque de código con el shortcode destacado interno de Hugo
+
 {{< highlight html >}}
 <!doctype html>
 <html lang="en">
@@ -117,7 +118,7 @@ Las tablas no forman parte de la especificación principal de Markdown, pero Hug
 </html>
 {{< /highlight >}}
 
-#### Diff code block
+#### bloque de código de diferencia
 
 ```diff
 [dependencies.bevy]
@@ -127,21 +128,21 @@ rev = "11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13"
 + features = ["jpeg", "dynamic"]
 ```
 
-## List Types
+## Tipos de lista
 
-#### Ordered List
+#### Listas ordenadas
 
 1. First item
 2. Second item
 3. Third item
 
-#### Unordered List
+#### Listas sin ordendar
 
 * List item
 * Another item
 * And another item
 
-#### Nested list
+#### Listas anidads
 
 * Fruit
   * Apple
@@ -151,7 +152,7 @@ rev = "11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13"
   * Milk
   * Cheese
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## Otros elementos — abbr, sub, sup, kbd, mark
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 
@@ -163,6 +164,6 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
-## Hyperlinked image
+## Imagen con hipervinculo
 
 [![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png)](https://google.com)
